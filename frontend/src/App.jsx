@@ -25,7 +25,7 @@ function App() {
       if (status) params.status = status;
       if (sort) params.sortBy = sort;
       const data = await getAllTasks(params);
-      setTasks(data);
+      setTasks(data || []);
     } catch (err) {
       setError(err.message);
     } finally {

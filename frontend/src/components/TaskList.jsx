@@ -1,7 +1,7 @@
 import React from 'react';
 import TaskCard from './TaskCard';
 
-const TaskList = ({ tasks, filterStatus, sortBy, onFilterChange, onSortChange, onDeleteTask }) => {
+const TaskList = ({ tasks = [], filterStatus, sortBy, onFilterChange, onSortChange, onDeleteTask }) => {
   return (
     <div>
       {/* Controls Container */}
