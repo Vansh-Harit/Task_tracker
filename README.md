@@ -4,7 +4,7 @@ A full-stack, premium Task Management application built with the MERN stack (Mon
 
 This project features a sleek, emerald-green glassmorphism design system, smooth highly-performant animations powered by AnimeJS, and a robust centralized state management architecture for instantaneous user feedback.
 
-## 🚀 Features
+##  Features
 
 - **Full CRUD Operations**: Create, Read, Update, and Delete tasks.
 - **Dynamic Filtering & Sorting**: Instantly filter tasks by status (Pending, In Progress, Completed) and sort by Creation or Due dates without network latency.
@@ -12,7 +12,7 @@ This project features a sleek, emerald-green glassmorphism design system, smooth
 - **Premium Glassmorphism UI**: Custom CSS utilizing translucent layers, backdrop blurring, and curated color palettes for a state-of-the-art aesthetic.
 - **Fluid Animations**: Staggered list reveals and smooth form transitions using AnimeJS.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **Framework:** React 18
@@ -27,7 +27,7 @@ This project features a sleek, emerald-green glassmorphism design system, smooth
 - **Database:** MongoDB (via Mongoose)
 - **Security:** Configurable CORS limits for production deployment
 
-## 🚦 Running Locally
+##  Running Locally
 
 To run this project locally, you will need two terminal windows.
 
@@ -50,7 +50,7 @@ npm run dev
 
 The application will be accessible at `http://localhost:5173`.
 
-## 🌐 Deployment
+##  Deployment
 This application is configured and ready for production deployment:
 - **Frontend** is optimized for Vercel (includes `vercel.json` for SPA routing).
 - **Backend** is optimized for Railway (respects `PORT` and `CORS_ORIGIN` environment variables).
